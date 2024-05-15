@@ -1,0 +1,73 @@
+body {
+    background-color: black; /* Change background color to black */
+}
+
+.main-container h1 {
+    display: inline-block;
+    box-shadow: inset 0 0 10px #000;
+    border-radius: 25px;
+    padding: 3px 20px;
+    color: #fff; /* Change text color to white */
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    line-height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+    color: #fff; /* Change text color to white */
+    background: #000; /* Change background color to black */
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.box:hover {
+    transform: scale(0.9);
+}
+
+.main-container {
+    text-align: center;
+    color: #fff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: 100px auto;
+}
+
+.fa-x {
+    color: #1fc5ba; /* Change color of X */
+    text-shadow: 0 0 5px #1fc5ba; /* Add text shadow for X */
+}
+
+.fa-o {
+    color: #1fc5ba; /* Change color of O */
+    text-shadow: 0 0 5px #1fc5ba; /* Add text shadow for O */
+}
+
+.restart-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+.restart-btn:hover {
+    font-size: 2em;
+}
+
+.restart-btn:active {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.status {
+    font-size: 40px;
+    color: #65c3a3d1;
+}
